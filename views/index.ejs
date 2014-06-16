@@ -1,0 +1,14 @@
+<% include header %>
+
+			<% if (!user) {%>
+				<div class="page-header">
+	  			<h1>欢迎来到<b>Rocky爱学CS</b>
+	 					<small>
+	  					<b>基于 Node.js 的微博式学习笔记系统</b>
+	  				</small>
+	  			</h1>
+				</div>
+			<% } %>
+			<% include posts %>
+			
+<% include footer %>
